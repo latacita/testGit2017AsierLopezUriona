@@ -6,3 +6,4 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(25)   								Se haría de manera recursiva ya que según nos indica el gráfico del SourceTree, la rama Historia001 está más adelantada que master.
