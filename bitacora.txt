@@ -1,12 +1,34 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):  Asier López Uriona                  %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-(25)   								Se haría de manera recursiva ya que según nos indica el gráfico del SourceTree, la rama Historia001 está más adelantada que master.
-(26)   commit "Paso 26"
-(27)   Añadir tag "RespuestaPreguntaFusion"
-(28)   push (incluidas tags)        Ha habido un error de fuera de sincronía debido a que cuando empecé la prueba no estaba subido todavía el enunciado. Una vez que hice pull, ya he podido hacer push.
+
+ (03)   checkout -b Historia000
+ (04)   checkout -b Historia001
+ (05)   checkout Historia000
+ (07)   add bitacora.txt
+ (08)   Commit "Paso 08"
+ (09)   Checkout Historia001
+ (11)   stash+checkout Historia000
+ (13)   add bitacora.txt
+ (14)   Commit "Paso 14"
+ (15)   checkout Historia001
+ (16)   Stash apply
+ (18)   add add bitacora.txt
+ (19)   Commit "Paso 19"
+ (20)   merge						Se tuvieron que reordenar los pasos y resolver conflictos (recursiva)
+ (22)   add bitacora.txt
+ (23)   Commit "Paso 23"
+ (24)   checkout master
+ (25)   							Se haría de manera recursiva ya que según nos indica el gráfico del SourceTree, la rama Historia001 está más adelantada que master.
+ (26)   commit "Paso 26"
+ (27)   Añadir tag "RespuestaPreguntaFusion"
+ (28)   push (incluidas tags)       Ha habido un error de fuera de sincronía debido a que cuando empecé la prueba no estaba subido todavía el enunciado. Una vez que hice pull, ya he podido hacer push.
+ (30)   add bitacora.txt+Commit "Paso 30"
+ (31)   merge                       Se tuvieron que reordenar los pasos y resolver conflictos (recursiva)
+ (33)   add bitacora.txt+Commit "Paso 33"
+ (34)   push
