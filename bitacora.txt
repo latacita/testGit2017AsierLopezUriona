@@ -7,3 +7,6 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 (25)   								Se haría de manera recursiva ya que según nos indica el gráfico del SourceTree, la rama Historia001 está más adelantada que master.
+(26)   commit "Paso 26"
+(27)   Añadir tag "RespuestaPreguntaFusion"
+(28)   push (incluidas tags)        Ha habido un error de fuera de sincronía debido a que cuando empecé la prueba no estaba subido todavía el enunciado. Una vez que hice pull, ya he podido hacer push.
