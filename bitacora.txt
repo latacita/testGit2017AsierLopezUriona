@@ -1,8 +1,11 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):  Asier López Uriona                                    %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (03)   checkout -b Historia000
+ (04)   checkout -b Historia001
+ (05)   checkout Historia000
